@@ -8,3 +8,4 @@ Website for Raja Surf School - a Surf School in South Sri Lanka
 * integrate contact form submission
 * connect domain
 * integrate Google Reviews API
+* update social media icons
