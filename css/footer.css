@@ -1,0 +1,10 @@
+footer {
+    padding: 0.3rem;
+    background-color: #ff914cff;
+    color: #f8efeaff;
+}
+
+.smallprint {
+    display: block;
+    text-align: center;
+}

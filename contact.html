@@ -19,7 +19,10 @@
         <link rel="manifest" href="/favicons/site.webmanifest">
     <!-- CSS -->
         <link rel="stylesheet" href="css/fonts.css">
-        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style_contact.css" type="text/css">
+        <link rel="stylesheet" href="css/header.css" type="text/css">
+        <link rel="stylesheet" href="css/footer.css" type="text/css">
     </head>
 
     <body>
@@ -41,16 +44,12 @@
             <div class="contact-wrapper flex-horizontal">
                 <div class="contact-container">
                     <form class="contact-form" action="" method="">
-                            <!-- <label for="customer_name">Enter Your Name:</label> -->
-                            <input id="customer_name" name="customer_name" type="text" placeholder="Name" required>
+                        <input id="customer_name" name="customer_name" type="text" placeholder="Name" required>
                         <br><br>
-                        <!-- <label for="customer_email">How can we reach You?</label> -->
                         <input id="customer_email" name="customer_email" type="text" placeholder="Email">
                         <br><br>
-                        <!-- <label for="customer_phone">How can we reach You?</label> -->
                         <input id="customer_phone" name="customer_phone" type="tel" placeholder="Phone">
                         <br><br>
-                        <!-- <label for="customer_message">Enter Your request:</label> -->
                         <textarea id="customer_message" name="customer_message" placeholder="Type your message here..." rows="5" cols="" required></textarea>
                         <br><br>
                         <input class="submit-button" type="submit" value="submit">
@@ -58,23 +57,21 @@
                 </div>
 
                 <div class="contact-info">
-                    <h3>Get in touch to schedule your first surf lesson!</h3>
-                    <p><span class="span-contrast">Phone:</span> +94 74 375 8080</p> <!-- integrate Whatsapp -->
-                    <p><span class="span-contrast">Email:</span> rajasurfschool@gmail.com</p>
-                    
+                    <h3>Get in touch to schedule your first surf lesson!</h3>                   
                     <div class="social-icons">
-                        <!-- Whatsapp Instagram Telegram -->
+                        <a class="icon" href="https://wa.me/94743758080" title="whatsapp"><img src="favicons/icons8-whatsapp-64.png" alt="whatsapp icon"></a>
+                        <a class="icon" href="https://t.me/rajasurfschool" title="telegram"><img src="favicons/icons8-telegram-64.png" alt="telegram icon"></a>
+                        <a class="icon" href="https://www.instagram.com/rajasurfschool/" title="instagram"><img src="favicons/icons8-instagram-64.png" alt="instagram icon"></a>
                     </div>
                 </div>
             </div>
         </div>
-        
+            
+        <div class="bottom-image flex-vertical">
+            <img id="surf-group-photo" src="./images/group.jpg" alt="group of happy surf students">
+        </div>
     </section>
-
-    <div class="bottom-image flex-vertical">
-        <img id="surf-group-photo" src="./images/group.jpg" alt="group of happy surf students">
-    </div>
-
+        
     <footer>
         <small class="smallprint">&copy; 2023 Raja Surf School | Sri Lanka </small>
     </footer>

@@ -1,0 +1,87 @@
+
+/* BANNER */
+
+.banner {
+    padding-top: 300px;
+    height: 500px;
+    width: 100%;
+    background-image: url(/images/background.JPG); 
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-headline {
+    position: relative;
+    top: -50%;
+    text-align: center;
+    width: 100%;
+    font-family: 'Lobster';
+    font-style: italic;
+    background-color: hsla(0, 3%, 22%, 0.4);
+    color: #f8efeaff;
+}
+
+/* INTRO */
+
+.intro {
+    background-color: #f8efeaff;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1.5%;
+}
+.intro-text{
+    text-align: center;
+}
+.intro-text h3 {
+    font-family: 'Lobster';
+    margin: 1rem 0 1.5rem;
+}
+.intro-text p:last-child{
+    margin-bottom: 1.4rem;
+}
+.intro-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#raja-with-board {
+    max-height: 450px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+@media (max-width: 1220px) {
+    .intro {
+        justify-content: center;
+    }
+    .intro-text {
+        flex-basis: 100%;
+    }
+}
+
+/* Google Maps */
+
+.googlemaps {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#google-reviews {
+    width: 100%;
+}
+.reviews {
+    flex-basis: 59%;
+}
+.map {
+    flex-basis: 35%;
+}
+#google-map{
+    width: 100%;
+    max-height: 300px;
+}
+
+@media only screen and (max-width: 750px){
+    .reviews, .map {
+            flex-basis: 100%;
+        }
+}
