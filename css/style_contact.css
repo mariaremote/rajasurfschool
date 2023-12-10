@@ -54,8 +54,9 @@
     height: auto;
 }
 #surf-group-photo {
-    width: 100%;
-    flex-shrink: 1;
+    margin: 0 auto;
+    /* width: 100%;
+    height: auto; */
 }
 
 @media only screen and (max-width:600px) {
@@ -67,4 +68,18 @@
     .contact-info {
         width: 100%;
     }
+}
+
+/* CAROUSEL */
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.carousel img {
+    max-height: 500px;
+    scroll-snap-align: start;
 }

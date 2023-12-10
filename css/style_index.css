@@ -5,11 +5,39 @@
     padding-top: 300px;
     height: 500px;
     width: 100%;
-    background-image: url(/images/background.JPG); 
     background-size: cover;
     background-position: center;
 }
-
+@media only screen and (max-width: 300px) {
+    .banner {
+        background-image: url(../images/background_400w.jpg);
+    }
+}
+@media only screen and (max-width: 500px) {
+    .banner {
+    background-image: url(../images/background_500w.JPG);
+    }
+}
+@media only screen and (max-width: 800px) {
+    .banner {
+        background-image: url(../images/background_800w.JPG);
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .banner {
+        background-image: url(../images/background_1000w.JPG);
+    }
+}
+@media only screen and (max-width: 1500px) {
+    .banner {
+        background-image: url(../images/background_1500w.JPG);
+    }
+}
+@media only screen and (max-width: 2000px) {
+    .banner {
+        background-image: url(../images/background_2000w.JPG);
+    }
+}
 .banner-headline {
     position: relative;
     top: -50%;
@@ -31,6 +59,7 @@
 }
 .intro-text{
     text-align: center;
+    flex-basis: 50%;
 }
 .intro-text h3 {
     font-family: 'Lobster';
@@ -43,6 +72,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-basis: 40%;
 }
 #raja-with-board {
     max-height: 450px;
@@ -50,8 +80,9 @@
     border-radius: 15px;
 }
 
-@media (max-width: 1220px) {
+@media (max-width: 750px) {
     .intro {
+        flex-direction: column;
         justify-content: center;
     }
     .intro-text {
